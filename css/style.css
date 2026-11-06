@@ -701,7 +701,7 @@ nav.main-nav a:hover::after{width:100%;}
   display:grid;
   grid-template-columns:.9fr 1.1fr;
   overflow:hidden;
-  transform:translateY(-90px);
+  transform:translateY(-60px);
 }
 .enquiry-side{
   background:url('../images/exterior-day.jpg') center/cover;
@@ -860,7 +860,7 @@ footer{background:var(--forest-900);color:rgba(243,236,220,.75);padding-top:80px
   .spaces-top{grid-template-columns:1fr;}
   .features-grid{grid-template-columns:1fr 1fr;}
   .testi-grid{grid-template-columns:1fr;}
-  .enquiry-card{grid-template-columns:1fr;transform:translateY(-60px);}
+  .enquiry-card{grid-template-columns:1fr;transform:translateY(-30px);}
   .form-row{grid-template-columns:1fr;}
   .footer-grid{grid-template-columns:1fr 1fr;}
 }
