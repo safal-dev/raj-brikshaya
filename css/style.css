@@ -201,7 +201,7 @@ header.site-header{
   font-weight:600;
 }
 
-nav.main-nav{display:flex;align-items:center;gap:36px;}
+nav.main-nav{display:flex;align-items:center;gap:26px;}
 nav.main-nav a{
   font-size:.86rem;
   letter-spacing:.03em;
@@ -563,6 +563,49 @@ nav.main-nav a:hover::after{width:100%;}
   font-size:.82rem;
   font-weight:500;
   box-shadow:0 4px 14px -6px rgba(17,40,31,.2);
+}
+
+/* ---------- founder ---------- */
+.founder{padding:120px 0;background:var(--cream-200);}
+.founder-card{
+  max-width:720px;
+  margin:0 auto;
+  text-align:center;
+  background:var(--white);
+  border-radius:var(--radius-lg);
+  padding:56px 48px;
+  box-shadow:var(--shadow-card);
+}
+.founder-card .glyph{
+  width:60px;height:60px;
+  border-radius:50%;
+  background:var(--forest-700);
+  color:var(--gold-300);
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 24px;
+}
+.founder-card .glyph svg{width:26px;height:26px;}
+.founder-card p{color:var(--ink-soft);font-size:1.05rem;margin-bottom:22px;}
+.founder-card .fname{font-family:var(--font-display);font-size:1.4rem;color:var(--forest-800);font-weight:600;}
+.founder-card .frole{font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-600);margin-top:4px;}
+
+/* ---------- philosophy ---------- */
+.philosophy{
+  padding:130px 0;
+  background:linear-gradient(135deg,var(--forest-800),var(--forest-900));
+  color:var(--cream-100);
+  text-align:center;
+}
+.philosophy .eyebrow{color:var(--gold-400);}
+.philosophy .eyebrow::before,.philosophy .eyebrow::after{background:var(--gold-400);}
+.philosophy blockquote{
+  font-family:var(--font-display);
+  font-weight:500;
+  font-size:clamp(1.6rem,3vw,2.5rem);
+  line-height:1.5;
+  max-width:860px;
+  margin:28px auto 0;
+  color:var(--cream-100);
 }
 
 /* ---------- testimonials ---------- */
